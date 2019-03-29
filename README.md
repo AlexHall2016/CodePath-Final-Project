@@ -12,7 +12,6 @@ Group Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
 A Galaga-style shooter where the player can tilt their phone side to side to move, and tap to shoot. There will be a Title screen, Menu, Gameplay, and a Highscore screen
 
 ### App Evaluation
@@ -30,11 +29,11 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
-- [ ] User is shown a title screen upon launching hte game
-- [ ] User can view a menu with options 
-- [ ] User can move by tilting and shoot by tapping
+* [ ] User is shown a title screen upon launching the game
+* [ ] User can view a menu with the buttons: Play, Options, Highscores
+* [ ] User can move by tilting and shoot by tapping
+* [ ] User sees a highscore board when they lose
+
 
 **Optional Nice-to-have Stories**
 
@@ -43,12 +42,14 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Title Screen
+   * User is shown a title screen upon launching the game
+* Menu
+   * User can view a menu with the buttons: Play, Options, Highscores
+* Game
+   * User can move by tilting and shoot by tapping
+* High Scores
+   * User sees a highscore board when they lose
 
 ### 3. Navigation
 
