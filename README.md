@@ -53,20 +53,16 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
-
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
-
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Title Screen
+   * => Menu Screen
+* Menu Screen
+   * => Game Screen 
+* Game Screen
+   * => Score Screen
+* Score Screen
+   * => Menu Screen(after finishing, return to play another round)
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
