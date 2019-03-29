@@ -1,5 +1,4 @@
 # CodePath-Final-Project
-Group Project - README Template
 ===
 
 # APP_NAME_HERE
@@ -16,12 +15,12 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Entertainment
+- **Mobile:** Not Uniquely Mobile
+- **Story:** No Story
+- **Market:** Large Market
+- **Habit:** Very Habbit Forming
+- **Scope:** Very Technically Challenging
 
 ## Product Spec
 
