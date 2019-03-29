@@ -1,7 +1,7 @@
 # CodePath-Final-Project
 ===
 
-# APP_NAME_HERE
+# Galaga Tribute
 
 ## Table of Contents
 1. [Overview](#Overview)
