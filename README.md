@@ -65,7 +65,7 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="http://i65.tinypic.com/ixdrpu." width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
