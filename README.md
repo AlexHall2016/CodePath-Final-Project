@@ -72,10 +72,18 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | username      | String   | unique username for the playing user |
+   | score         | Number   | the score the user obtained |
+   | position      | Number   | the position on the scoreboard |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+### List of Network Requests by Screen
+  - Score Screen  
+      - (Read/GET) Grab the top 3 high scores and the current player's score
+      - (Update/PUT) Update user high score if conditon is met
+ 
