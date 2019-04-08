@@ -1,0 +1,7 @@
+# Xcode
+
+# Ignore Mac DS_Store files
+.DS_Store
+
+ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstate
+
