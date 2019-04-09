@@ -1,0 +1,6 @@
+framework module Pods_Galaga_Tribute {
+  umbrella header "Pods-Galaga-Tribute-umbrella.h"
+
+  export *
+  module * { export * }
+}

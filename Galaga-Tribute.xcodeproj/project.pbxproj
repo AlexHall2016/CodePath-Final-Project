@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079D2191532C4E0BF4FD2D4D /* Pods_Galaga_TributeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C64E1E6172BC69D8DE4D465 /* Pods_Galaga_TributeTests.framework */; };
+		626172B773090A37B48A9220 /* Pods_Galaga_TributeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E62D25E2EF9C09369CC3E4 /* Pods_Galaga_TributeUITests.framework */; };
 		C4331FBA225C376800A40456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FB9225C376800A40456 /* AppDelegate.swift */; };
 		C4331FBC225C376800A40456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FBB225C376800A40456 /* ViewController.swift */; };
 		C4331FBF225C376800A40456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4331FBD225C376800A40456 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		C4331FC4225C376C00A40456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4331FC2225C376C00A40456 /* LaunchScreen.storyboard */; };
 		C4331FCF225C376C00A40456 /* Galaga_TributeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FCE225C376C00A40456 /* Galaga_TributeTests.swift */; };
 		C4331FDA225C376C00A40456 /* Galaga_TributeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FD9225C376C00A40456 /* Galaga_TributeUITests.swift */; };
+		E75E167ECA1C848810F9016B /* Pods_Galaga_Tribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA30EE3E565BDD65DA85EE1B /* Pods_Galaga_Tribute.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E62D25E2EF9C09369CC3E4 /* Pods_Galaga_TributeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galaga_TributeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6D9232099B3803D98C725B /* Pods-Galaga-Tribute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-Tribute.release.xcconfig"; path = "Target Support Files/Pods-Galaga-Tribute/Pods-Galaga-Tribute.release.xcconfig"; sourceTree = "<group>"; };
+		47D20F4628ED931D583E7C63 /* Pods-Galaga-TributeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeTests.debug.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeTests/Pods-Galaga-TributeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C64E1E6172BC69D8DE4D465 /* Pods_Galaga_TributeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galaga_TributeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590799644990A5B77ED156D /* Pods-Galaga-Tribute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-Tribute.debug.xcconfig"; path = "Target Support Files/Pods-Galaga-Tribute/Pods-Galaga-Tribute.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C4CC91B0CD92D2521268D1 /* Pods-Galaga-TributeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeTests.release.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeTests/Pods-Galaga-TributeTests.release.xcconfig"; sourceTree = "<group>"; };
 		C4331FB6225C376800A40456 /* Galaga-Tribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galaga-Tribute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4331FB9225C376800A40456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4331FBB225C376800A40456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		C4331FD5225C376C00A40456 /* Galaga-TributeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galaga-TributeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4331FD9225C376C00A40456 /* Galaga_TributeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaga_TributeUITests.swift; sourceTree = "<group>"; };
 		C4331FDB225C376C00A40456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA30EE3E565BDD65DA85EE1B /* Pods_Galaga_Tribute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galaga_Tribute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5DD635C0B2F2017BE68E19 /* Pods-Galaga-TributeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8CBFE46C14B629463261C4 /* Pods-Galaga-TributeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.release.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75E167ECA1C848810F9016B /* Pods_Galaga_Tribute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079D2191532C4E0BF4FD2D4D /* Pods_Galaga_TributeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626172B773090A37B48A9220 /* Pods_Galaga_TributeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1E054EA7693041817C7589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA30EE3E565BDD65DA85EE1B /* Pods_Galaga_Tribute.framework */,
+				4C64E1E6172BC69D8DE4D465 /* Pods_Galaga_TributeTests.framework */,
+				02E62D25E2EF9C09369CC3E4 /* Pods_Galaga_TributeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B845E86CEF4F2BE48E546C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6590799644990A5B77ED156D /* Pods-Galaga-Tribute.debug.xcconfig */,
+				3A6D9232099B3803D98C725B /* Pods-Galaga-Tribute.release.xcconfig */,
+				47D20F4628ED931D583E7C63 /* Pods-Galaga-TributeTests.debug.xcconfig */,
+				C2C4CC91B0CD92D2521268D1 /* Pods-Galaga-TributeTests.release.xcconfig */,
+				FA5DD635C0B2F2017BE68E19 /* Pods-Galaga-TributeUITests.debug.xcconfig */,
+				FF8CBFE46C14B629463261C4 /* Pods-Galaga-TributeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C4331FAD225C376800A40456 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				C4331FCD225C376C00A40456 /* Galaga-TributeTests */,
 				C4331FD8225C376C00A40456 /* Galaga-TributeUITests */,
 				C4331FB7225C376800A40456 /* Products */,
+				1B845E86CEF4F2BE48E546C1 /* Pods */,
+				0D1E054EA7693041817C7589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4331FDE225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-Tribute" */;
 			buildPhases = (
+				8B24843F3C8AE05B3D6B18B2 /* [CP] Check Pods Manifest.lock */,
 				C4331FB2225C376800A40456 /* Sources */,
 				C4331FB3225C376800A40456 /* Frameworks */,
 				C4331FB4225C376800A40456 /* Resources */,
+				BDAC85D98AC82A6F39010198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4331FE1225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-TributeTests" */;
 			buildPhases = (
+				A8FA56E1DFFFC4C547DD31C7 /* [CP] Check Pods Manifest.lock */,
 				C4331FC6225C376C00A40456 /* Sources */,
 				C4331FC7225C376C00A40456 /* Frameworks */,
 				C4331FC8225C376C00A40456 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4331FE4225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-TributeUITests" */;
 			buildPhases = (
+				7AC6A75F679D00232C9BD467 /* [CP] Check Pods Manifest.lock */,
 				C4331FD1225C376C00A40456 /* Sources */,
 				C4331FD2225C376C00A40456 /* Frameworks */,
 				C4331FD3225C376C00A40456 /* Resources */,
@@ -250,6 +295,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AC6A75F679D00232C9BD467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Galaga-TributeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B24843F3C8AE05B3D6B18B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Galaga-Tribute-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8FA56E1DFFFC4C547DD31C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Galaga-TributeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDAC85D98AC82A6F39010198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Galaga-Tribute/Pods-Galaga-Tribute-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Galaga-Tribute/Pods-Galaga-Tribute-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4331FB2225C376800A40456 /* Sources */ = {
@@ -430,6 +568,7 @@
 		};
 		C4331FDF225C376C00A40456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6590799644990A5B77ED156D /* Pods-Galaga-Tribute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +586,7 @@
 		};
 		C4331FE0225C376C00A40456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6D9232099B3803D98C725B /* Pods-Galaga-Tribute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +604,7 @@
 		};
 		C4331FE2225C376C00A40456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D20F4628ED931D583E7C63 /* Pods-Galaga-TributeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +625,7 @@
 		};
 		C4331FE3225C376C00A40456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C4CC91B0CD92D2521268D1 /* Pods-Galaga-TributeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +646,7 @@
 		};
 		C4331FE5225C376C00A40456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5DD635C0B2F2017BE68E19 /* Pods-Galaga-TributeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +666,7 @@
 		};
 		C4331FE6225C376C00A40456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8CBFE46C14B629463261C4 /* Pods-Galaga-TributeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

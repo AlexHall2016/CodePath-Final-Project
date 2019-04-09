@@ -1,0 +1,6 @@
+framework module Pods_Galaga_TributeUITests {
+  umbrella header "Pods-Galaga-TributeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
