@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4331FBA225C376800A40456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FB9225C376800A40456 /* AppDelegate.swift */; };
+		C4331FBC225C376800A40456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FBB225C376800A40456 /* ViewController.swift */; };
+		C4331FBF225C376800A40456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4331FBD225C376800A40456 /* Main.storyboard */; };
+		C4331FC1225C376C00A40456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4331FC0225C376C00A40456 /* Assets.xcassets */; };
+		C4331FC4225C376C00A40456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4331FC2225C376C00A40456 /* LaunchScreen.storyboard */; };
+		C4331FCF225C376C00A40456 /* Galaga_TributeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FCE225C376C00A40456 /* Galaga_TributeTests.swift */; };
+		C4331FDA225C376C00A40456 /* Galaga_TributeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FD9225C376C00A40456 /* Galaga_TributeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4331FCB225C376C00A40456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4331FAE225C376800A40456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4331FB5225C376800A40456;
+			remoteInfo = "Galaga-Tribute";
+		};
+		C4331FD6225C376C00A40456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4331FAE225C376800A40456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4331FB5225C376800A40456;
+			remoteInfo = "Galaga-Tribute";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4331FB6225C376800A40456 /* Galaga-Tribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galaga-Tribute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4331FB9225C376800A40456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4331FBB225C376800A40456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4331FBE225C376800A40456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4331FC0225C376C00A40456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4331FC3225C376C00A40456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4331FC5225C376C00A40456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4331FCA225C376C00A40456 /* Galaga-TributeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galaga-TributeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4331FCE225C376C00A40456 /* Galaga_TributeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaga_TributeTests.swift; sourceTree = "<group>"; };
+		C4331FD0225C376C00A40456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4331FD5225C376C00A40456 /* Galaga-TributeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galaga-TributeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4331FD9225C376C00A40456 /* Galaga_TributeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaga_TributeUITests.swift; sourceTree = "<group>"; };
+		C4331FDB225C376C00A40456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4331FB3225C376800A40456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4331FC7225C376C00A40456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4331FD2225C376C00A40456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4331FAD225C376800A40456 = {
+			isa = PBXGroup;
+			children = (
+				C4331FB8225C376800A40456 /* Galaga-Tribute */,
+				C4331FCD225C376C00A40456 /* Galaga-TributeTests */,
+				C4331FD8225C376C00A40456 /* Galaga-TributeUITests */,
+				C4331FB7225C376800A40456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4331FB7225C376800A40456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4331FB6225C376800A40456 /* Galaga-Tribute.app */,
+				C4331FCA225C376C00A40456 /* Galaga-TributeTests.xctest */,
+				C4331FD5225C376C00A40456 /* Galaga-TributeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4331FB8225C376800A40456 /* Galaga-Tribute */ = {
+			isa = PBXGroup;
+			children = (
+				C4331FB9225C376800A40456 /* AppDelegate.swift */,
+				C4331FBB225C376800A40456 /* ViewController.swift */,
+				C4331FBD225C376800A40456 /* Main.storyboard */,
+				C4331FC0225C376C00A40456 /* Assets.xcassets */,
+				C4331FC2225C376C00A40456 /* LaunchScreen.storyboard */,
+				C4331FC5225C376C00A40456 /* Info.plist */,
+			);
+			path = "Galaga-Tribute";
+			sourceTree = "<group>";
+		};
+		C4331FCD225C376C00A40456 /* Galaga-TributeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4331FCE225C376C00A40456 /* Galaga_TributeTests.swift */,
+				C4331FD0225C376C00A40456 /* Info.plist */,
+			);
+			path = "Galaga-TributeTests";
+			sourceTree = "<group>";
+		};
+		C4331FD8225C376C00A40456 /* Galaga-TributeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4331FD9225C376C00A40456 /* Galaga_TributeUITests.swift */,
+				C4331FDB225C376C00A40456 /* Info.plist */,
+			);
+			path = "Galaga-TributeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4331FB5225C376800A40456 /* Galaga-Tribute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4331FDE225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-Tribute" */;
+			buildPhases = (
+				C4331FB2225C376800A40456 /* Sources */,
+				C4331FB3225C376800A40456 /* Frameworks */,
+				C4331FB4225C376800A40456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Galaga-Tribute";
+			productName = "Galaga-Tribute";
+			productReference = C4331FB6225C376800A40456 /* Galaga-Tribute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4331FC9225C376C00A40456 /* Galaga-TributeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4331FE1225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-TributeTests" */;
+			buildPhases = (
+				C4331FC6225C376C00A40456 /* Sources */,
+				C4331FC7225C376C00A40456 /* Frameworks */,
+				C4331FC8225C376C00A40456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4331FCC225C376C00A40456 /* PBXTargetDependency */,
+			);
+			name = "Galaga-TributeTests";
+			productName = "Galaga-TributeTests";
+			productReference = C4331FCA225C376C00A40456 /* Galaga-TributeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4331FD4225C376C00A40456 /* Galaga-TributeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4331FE4225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-TributeUITests" */;
+			buildPhases = (
+				C4331FD1225C376C00A40456 /* Sources */,
+				C4331FD2225C376C00A40456 /* Frameworks */,
+				C4331FD3225C376C00A40456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4331FD7225C376C00A40456 /* PBXTargetDependency */,
+			);
+			name = "Galaga-TributeUITests";
+			productName = "Galaga-TributeUITests";
+			productReference = C4331FD5225C376C00A40456 /* Galaga-TributeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4331FAE225C376800A40456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alexander Hall";
+				TargetAttributes = {
+					C4331FB5225C376800A40456 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					C4331FC9225C376C00A40456 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C4331FB5225C376800A40456;
+					};
+					C4331FD4225C376C00A40456 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C4331FB5225C376800A40456;
+					};
+				};
+			};
+			buildConfigurationList = C4331FB1225C376800A40456 /* Build configuration list for PBXProject "Galaga-Tribute" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4331FAD225C376800A40456;
+			productRefGroup = C4331FB7225C376800A40456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4331FB5225C376800A40456 /* Galaga-Tribute */,
+				C4331FC9225C376C00A40456 /* Galaga-TributeTests */,
+				C4331FD4225C376C00A40456 /* Galaga-TributeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4331FB4225C376800A40456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4331FC4225C376C00A40456 /* LaunchScreen.storyboard in Resources */,
+				C4331FC1225C376C00A40456 /* Assets.xcassets in Resources */,
+				C4331FBF225C376800A40456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4331FC8225C376C00A40456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4331FD3225C376C00A40456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4331FB2225C376800A40456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4331FBC225C376800A40456 /* ViewController.swift in Sources */,
+				C4331FBA225C376800A40456 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4331FC6225C376C00A40456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4331FCF225C376C00A40456 /* Galaga_TributeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4331FD1225C376C00A40456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4331FDA225C376C00A40456 /* Galaga_TributeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4331FCC225C376C00A40456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4331FB5225C376800A40456 /* Galaga-Tribute */;
+			targetProxy = C4331FCB225C376C00A40456 /* PBXContainerItemProxy */;
+		};
+		C4331FD7225C376C00A40456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4331FB5225C376800A40456 /* Galaga-Tribute */;
+			targetProxy = C4331FD6225C376C00A40456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4331FBD225C376800A40456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4331FBE225C376800A40456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4331FC2225C376C00A40456 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4331FC3225C376C00A40456 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4331FDC225C376C00A40456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4331FDD225C376C00A40456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4331FDF225C376C00A40456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galaga-Tribute/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-Tribute";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4331FE0225C376C00A40456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galaga-Tribute/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-Tribute";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4331FE2225C376C00A40456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galaga-TributeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-TributeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galaga-Tribute.app/Galaga-Tribute";
+			};
+			name = Debug;
+		};
+		C4331FE3225C376C00A40456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galaga-TributeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-TributeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galaga-Tribute.app/Galaga-Tribute";
+			};
+			name = Release;
+		};
+		C4331FE5225C376C00A40456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galaga-TributeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-TributeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Galaga-Tribute";
+			};
+			name = Debug;
+		};
+		C4331FE6225C376C00A40456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Galaga-TributeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-TributeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Galaga-Tribute";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4331FB1225C376800A40456 /* Build configuration list for PBXProject "Galaga-Tribute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4331FDC225C376C00A40456 /* Debug */,
+				C4331FDD225C376C00A40456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4331FDE225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-Tribute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4331FDF225C376C00A40456 /* Debug */,
+				C4331FE0225C376C00A40456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4331FE1225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-TributeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4331FE2225C376C00A40456 /* Debug */,
+				C4331FE3225C376C00A40456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4331FE4225C376C00A40456 /* Build configuration list for PBXNativeTarget "Galaga-TributeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4331FE5225C376C00A40456 /* Debug */,
+				C4331FE6225C376C00A40456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4331FAE225C376800A40456 /* Project object */;
+}
