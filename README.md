@@ -1,6 +1,3 @@
-# CodePath-Final-Project
-===
-
 # Galaga Tribute
 
 ## Table of Contents
