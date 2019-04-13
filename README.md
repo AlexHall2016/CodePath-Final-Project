@@ -25,8 +25,8 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
 
 **Required Must-have Stories**
 
-* [ ] User is shown a title screen upon launching the game
-* [ ] User can view a menu with the buttons: Play, Options, Highscores
+* [x] User is shown a title screen upon launching the game
+* [x] User can view a menu with the buttons: Play, Options, Highscores
 * [ ] User can move by tilting and shoot by tapping
 * [ ] User sees a highscore board when they lose
 
