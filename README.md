@@ -84,3 +84,5 @@ A Galaga-style shooter where the player can tilt their phone side to side to mov
       - (Read/GET) Grab the top 3 high scores and the current player's score
       - (Update/PUT) Update user high score if conditon is met
  
+### GIF of Progress
+<img src="http://g.recordit.co/Ervhy3XJ1o.gif" width=250><br>
