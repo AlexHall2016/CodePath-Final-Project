@@ -10,12 +10,13 @@
 		079D2191532C4E0BF4FD2D4D /* Pods_Galaga_TributeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C64E1E6172BC69D8DE4D465 /* Pods_Galaga_TributeTests.framework */; };
 		626172B773090A37B48A9220 /* Pods_Galaga_TributeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E62D25E2EF9C09369CC3E4 /* Pods_Galaga_TributeUITests.framework */; };
 		C4331FBA225C376800A40456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FB9225C376800A40456 /* AppDelegate.swift */; };
-		C4331FBC225C376800A40456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FBB225C376800A40456 /* ViewController.swift */; };
 		C4331FBF225C376800A40456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4331FBD225C376800A40456 /* Main.storyboard */; };
 		C4331FC1225C376C00A40456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4331FC0225C376C00A40456 /* Assets.xcassets */; };
 		C4331FC4225C376C00A40456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4331FC2225C376C00A40456 /* LaunchScreen.storyboard */; };
 		C4331FCF225C376C00A40456 /* Galaga_TributeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FCE225C376C00A40456 /* Galaga_TributeTests.swift */; };
 		C4331FDA225C376C00A40456 /* Galaga_TributeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4331FD9225C376C00A40456 /* Galaga_TributeUITests.swift */; };
+		C433205E2262A07700A40456 /* TitleScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433205D2262A07700A40456 /* TitleScreenViewController.swift */; };
+		C43320602262A41C00A40456 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433205F2262A41C00A40456 /* MenuViewController.swift */; };
 		E75E167ECA1C848810F9016B /* Pods_Galaga_Tribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA30EE3E565BDD65DA85EE1B /* Pods_Galaga_Tribute.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +46,6 @@
 		C2C4CC91B0CD92D2521268D1 /* Pods-Galaga-TributeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeTests.release.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeTests/Pods-Galaga-TributeTests.release.xcconfig"; sourceTree = "<group>"; };
 		C4331FB6225C376800A40456 /* Galaga-Tribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galaga-Tribute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4331FB9225C376800A40456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4331FBB225C376800A40456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4331FBE225C376800A40456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4331FC0225C376C00A40456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4331FC3225C376C00A40456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +56,8 @@
 		C4331FD5225C376C00A40456 /* Galaga-TributeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galaga-TributeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4331FD9225C376C00A40456 /* Galaga_TributeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaga_TributeUITests.swift; sourceTree = "<group>"; };
 		C4331FDB225C376C00A40456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C433205D2262A07700A40456 /* TitleScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenViewController.swift; sourceTree = "<group>"; };
+		C433205F2262A41C00A40456 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EA30EE3E565BDD65DA85EE1B /* Pods_Galaga_Tribute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galaga_Tribute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5DD635C0B2F2017BE68E19 /* Pods-Galaga-TributeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF8CBFE46C14B629463261C4 /* Pods-Galaga-TributeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.release.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				FA5DD635C0B2F2017BE68E19 /* Pods-Galaga-TributeUITests.debug.xcconfig */,
 				FF8CBFE46C14B629463261C4 /* Pods-Galaga-TributeUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,11 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				C4331FB9225C376800A40456 /* AppDelegate.swift */,
-				C4331FBB225C376800A40456 /* ViewController.swift */,
 				C4331FBD225C376800A40456 /* Main.storyboard */,
 				C4331FC0225C376C00A40456 /* Assets.xcassets */,
 				C4331FC2225C376C00A40456 /* LaunchScreen.storyboard */,
 				C4331FC5225C376C00A40456 /* Info.plist */,
+				C433205D2262A07700A40456 /* TitleScreenViewController.swift */,
+				C433205F2262A41C00A40456 /* MenuViewController.swift */,
 			);
 			path = "Galaga-Tribute";
 			sourceTree = "<group>";
@@ -394,8 +396,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4331FBC225C376800A40456 /* ViewController.swift in Sources */,
 				C4331FBA225C376800A40456 /* AppDelegate.swift in Sources */,
+				C43320602262A41C00A40456 /* MenuViewController.swift in Sources */,
+				C433205E2262A07700A40456 /* TitleScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
