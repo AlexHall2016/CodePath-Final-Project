@@ -11,6 +11,8 @@ class GameScene: SKScene {
     let motionManager = CMMotionManager()
     var xAccel: CGFloat = 0
     
+    var gameTimer:Timer!
+    var alienTypes = ["alien", "alien2", "alien3"]
     
     override func didMove(to view: SKView) {
         
@@ -37,7 +39,37 @@ class GameScene: SKScene {
             }
         }
         
+        //introduce the enemies
+        gameTimer = Timer.scheduledTimer(timeInterval: 0.75, target: self, selector: #selector(addAlien), userInfo: nil, repeats: true)
+        
+        
+        
     }
+    
+    @objc func addAlien() {
+        alienTypes = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: alienTypes) as! [String]
+        
+        let alien = SKSpriteNode(imageNamed: alienTypes[0])
+        /*get random x position and set to cgfloat*/
+        let randomAlienPosition = GKRandomDistribution(lowestValue: 0, highestValue: 414)
+        let position = CGFloat(randomAlienPosition.nextInt())
+        
+        alien.position = CGPoint(x: position, y: self.frame.size.height + alien.size.height)
+        /*add to the display*/
+        self.addChild(alien)
+        
+        /*animate the alien from top to bottom of screen*/
+        let animationDuration = 6
+        
+        var actionArray = [SKAction]()
+        
+        actionArray.append(SKAction.move(to: CGPoint(x: position, y: -alien.size.height), duration: TimeInterval(animationDuration)))
+        actionArray.append(SKAction.removeFromParent())
+        
+        alien.run(SKAction.sequence(actionArray))
+    }
+    
+    
     
     override func didSimulatePhysics() {
         
