@@ -18,6 +18,13 @@
 		C433205E2262A07700A40456 /* TitleScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433205D2262A07700A40456 /* TitleScreenViewController.swift */; };
 		C43320602262A41C00A40456 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433205F2262A41C00A40456 /* MenuViewController.swift */; };
 		E75E167ECA1C848810F9016B /* Pods_Galaga_Tribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA30EE3E565BDD65DA85EE1B /* Pods_Galaga_Tribute.framework */; };
+		F629037122657E0F00C84D9D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F629036D22657E0E00C84D9D /* Actions.sks */; };
+		F629037222657E0F00C84D9D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F629036E22657E0E00C84D9D /* GameViewController.swift */; };
+		F629037322657E0F00C84D9D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F629036F22657E0F00C84D9D /* GameScene.swift */; };
+		F629037422657E0F00C84D9D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F629037022657E0F00C84D9D /* GameScene.sks */; };
+		F629037622657E1600C84D9D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F629037522657E1600C84D9D /* Player.swift */; };
+		F629037C2266789900C84D9D /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F629037B2266789900C84D9D /* MenuScene.swift */; };
+		F629037E22667A1100C84D9D /* Spacebg.sks in Resources */ = {isa = PBXBuildFile; fileRef = F629037D22667A1100C84D9D /* Spacebg.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,13 @@
 		C433205D2262A07700A40456 /* TitleScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenViewController.swift; sourceTree = "<group>"; };
 		C433205F2262A41C00A40456 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EA30EE3E565BDD65DA85EE1B /* Pods_Galaga_Tribute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galaga_Tribute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F629036D22657E0E00C84D9D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F629036E22657E0E00C84D9D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F629036F22657E0F00C84D9D /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F629037022657E0F00C84D9D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F629037522657E1600C84D9D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F629037B2266789900C84D9D /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		F629037D22667A1100C84D9D /* Spacebg.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spacebg.sks; sourceTree = "<group>"; };
 		FA5DD635C0B2F2017BE68E19 /* Pods-Galaga-TributeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF8CBFE46C14B629463261C4 /* Pods-Galaga-TributeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.release.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,13 +153,20 @@
 		C4331FB8225C376800A40456 /* Galaga-Tribute */ = {
 			isa = PBXGroup;
 			children = (
-				C4331FB9225C376800A40456 /* AppDelegate.swift */,
-				C4331FBD225C376800A40456 /* Main.storyboard */,
-				C4331FC0225C376C00A40456 /* Assets.xcassets */,
 				C4331FC2225C376C00A40456 /* LaunchScreen.storyboard */,
-				C4331FC5225C376C00A40456 /* Info.plist */,
+				C4331FBD225C376800A40456 /* Main.storyboard */,
+				F629037022657E0F00C84D9D /* GameScene.sks */,
+				F629037522657E1600C84D9D /* Player.swift */,
+				F629036D22657E0E00C84D9D /* Actions.sks */,
+				F629036F22657E0F00C84D9D /* GameScene.swift */,
+				F629036E22657E0E00C84D9D /* GameViewController.swift */,
+				C4331FB9225C376800A40456 /* AppDelegate.swift */,
 				C433205D2262A07700A40456 /* TitleScreenViewController.swift */,
+				F629037B2266789900C84D9D /* MenuScene.swift */,
 				C433205F2262A41C00A40456 /* MenuViewController.swift */,
+				F629037D22667A1100C84D9D /* Spacebg.sks */,
+				C4331FC5225C376C00A40456 /* Info.plist */,
+				C4331FC0225C376C00A40456 /* Assets.xcassets */,
 			);
 			path = "Galaga-Tribute";
 			sourceTree = "<group>";
@@ -277,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4331FC4225C376C00A40456 /* LaunchScreen.storyboard in Resources */,
+				F629037422657E0F00C84D9D /* GameScene.sks in Resources */,
 				C4331FC1225C376C00A40456 /* Assets.xcassets in Resources */,
 				C4331FBF225C376800A40456 /* Main.storyboard in Resources */,
+				F629037122657E0F00C84D9D /* Actions.sks in Resources */,
+				F629037E22667A1100C84D9D /* Spacebg.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +420,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F629037322657E0F00C84D9D /* GameScene.swift in Sources */,
+				F629037222657E0F00C84D9D /* GameViewController.swift in Sources */,
 				C4331FBA225C376800A40456 /* AppDelegate.swift in Sources */,
+				F629037C2266789900C84D9D /* MenuScene.swift in Sources */,
 				C43320602262A41C00A40456 /* MenuViewController.swift in Sources */,
+				F629037622657E1600C84D9D /* Player.swift in Sources */,
 				C433205E2262A07700A40456 /* TitleScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,12 +603,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M77CWP83M;
 				INFOPLIST_FILE = "Galaga-Tribute/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-Tribute";
+				PRODUCT_BUNDLE_IDENTIFIER = "antowyyy.Galaga-Tribute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -593,12 +622,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M77CWP83M;
 				INFOPLIST_FILE = "Galaga-Tribute/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Galaga-Tribute";
+				PRODUCT_BUNDLE_IDENTIFIER = "antowyyy.Galaga-Tribute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

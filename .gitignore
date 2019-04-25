@@ -5,3 +5,7 @@
 
 ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstate
 
+*.xcuserdata
+*.pbxuser
+*.xcworkspace
+*.xuserstate

@@ -6,10 +6,32 @@
 //  Copyright © 2019 Alexander Hall. All rights reserved.
 //
 
-import UIKit
+import SpriteKit
+import GameplayKit
+
 
 class MenuViewController: UIViewController {
 
+    @IBAction func playPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: "GameSegue", sender: nil)
+        
+       /*
+        let gamescene = SKScene(fileNamed: "GameScene")
+        
+        //SKScene(size: view.bounds.size)
+        
+        let vc = self.view
+        vc?.isHidden = true
+        
+        let skView = self.view as! SKView
+        
+        skView.presentScene(gamescene)
+        
+        
+        */
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
