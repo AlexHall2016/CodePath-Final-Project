@@ -16,7 +16,7 @@ class GameScene: SKScene {
     var xAccel: CGFloat = 0
     
     var gameTimer:Timer!
-    var alienTypes = ["alien", "alien2", "alien3"]
+    var alienTypes = ["enemy", "enemy2", "enemy3"]
     
     var livesArray:[SKSpriteNode]!
     
