@@ -11,32 +11,7 @@ import GameplayKit
 
 
 class MenuViewController: UIViewController {
-
     
-    @IBOutlet weak var playButton: UIButton!
-    
-    
-    
-    @IBAction func playPressed(_ sender: Any) {
-        
-        performSegue(withIdentifier: "GameSegue", sender: nil)
-        
-        
-       /*
-        let gamescene = SKScene(fileNamed: "GameScene")
-        
-        //SKScene(size: view.bounds.size)
-        
-        let vc = self.view
-        vc?.isHidden = true
-        
-        let skView = self.view as! SKView
-        
-        skView.presentScene(gamescene)
-        
-        
-        */
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

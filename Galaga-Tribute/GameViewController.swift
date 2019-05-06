@@ -12,9 +12,12 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    var username: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()        
         
+        print(username)
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "GameScene") {
@@ -26,6 +29,8 @@ class GameViewController: UIViewController {
                 gScene.vc = self
                 // Present the scene
                 view.presentScene(scene)
+            
+                gScene.user = self.username
             }
             
             view.ignoresSiblingOrder = true

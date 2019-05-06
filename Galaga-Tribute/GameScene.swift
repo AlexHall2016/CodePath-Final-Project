@@ -2,16 +2,18 @@ import Foundation
 import SpriteKit
 import GameplayKit
 import CoreMotion
+import Parse
 
 class GameScene: SKScene {
     
    
     var vc: UIViewController?
-    
+    var user: String!
     
     var player1:Player!
     var background: SKEmitterNode!
     
+    let score: Int = 100
     let motionManager = CMMotionManager()
     var xAccel: CGFloat = 0
     
@@ -38,7 +40,7 @@ class GameScene: SKScene {
         
         //load player ship
         player1 = Player.init(xLocation: self.frame.size.width/2)
-        var yLocation = CGFloat(230)
+        let yLocation = CGFloat(230)
         player1.position = CGPoint(x: player1.xLocation, y: yLocation)
         self.addChild(player1)
         
@@ -124,7 +126,20 @@ class GameScene: SKScene {
     
     
     func gameOver() {
-        self.vc?.performSegue(withIdentifier: "gameOver", sender: vc)
+        /*store the user name and score into parse server*/
+        let userScore = PFObject(className: "userScore")
+        userScore["score"] = score
+        userScore["playerName"] = "Harry Zhang"
+        
+        userScore.saveInBackground {
+            (success: Bool, error: Error?) in
+            if (success) {
+                self.vc?.performSegue(withIdentifier: "gameOver", sender: self.vc)
+            } else {
+                print(error?.localizedDescription as Any)
+            }
+        }
+        
     }
     
    
