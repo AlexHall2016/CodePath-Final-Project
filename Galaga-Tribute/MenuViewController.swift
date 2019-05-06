@@ -12,9 +12,15 @@ import GameplayKit
 
 class MenuViewController: UIViewController {
 
+    
+    @IBOutlet weak var playButton: UIButton!
+    
+    
+    
     @IBAction func playPressed(_ sender: Any) {
         
         performSegue(withIdentifier: "GameSegue", sender: nil)
+        
         
        /*
         let gamescene = SKScene(fileNamed: "GameScene")
@@ -34,7 +40,26 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        /*
+        var spawnTime = UserDefaults.standard
+        var isNormal = UserDefaults.standard
+        
+        if spawnTime.value(forKey: "difficulty") != nil {
+            spawnTime.set(0.75, forKey: "difficulty")
+        }
+        
+        if  isNormal.value(forKey: "normal") != nil {
+            playButton.setTitle("Play: Normal", for: .normal)
+        }
+        
+        spawnTime.synchronize()
+        isNormal.synchronize()
+        
+        print(spawnTime.value(forKey: "difficuly"))
+        
+        self.loadView()
+        */
+ 
         // Do any additional setup after loading the view.
     }
     
