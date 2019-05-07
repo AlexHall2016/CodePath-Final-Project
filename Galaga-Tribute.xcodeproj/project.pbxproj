@@ -27,6 +27,7 @@
 		F629037E22667A1100C84D9D /* Spacebg.sks in Resources */ = {isa = PBXBuildFile; fileRef = F629037D22667A1100C84D9D /* Spacebg.sks */; };
 		F6770390227A6C8500715B91 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677038F227A6C8500715B91 /* SettingsViewController.swift */; };
 		F6770392227D366400715B91 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6770391227D366400715B91 /* GameOverViewController.swift */; };
+		F6A51F5D22810D2D00D02EBD /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6A51F5C22810D2D00D02EBD /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		F629037D22667A1100C84D9D /* Spacebg.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spacebg.sks; sourceTree = "<group>"; };
 		F677038F227A6C8500715B91 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F6770391227D366400715B91 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		F6A51F5C22810D2D00D02EBD /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		FA5DD635C0B2F2017BE68E19 /* Pods-Galaga-TributeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF8CBFE46C14B629463261C4 /* Pods-Galaga-TributeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaga-TributeUITests.release.xcconfig"; path = "Target Support Files/Pods-Galaga-TributeUITests/Pods-Galaga-TributeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 				C433205F2262A41C00A40456 /* MenuViewController.swift */,
 				F629037D22667A1100C84D9D /* Spacebg.sks */,
 				C4331FC5225C376C00A40456 /* Info.plist */,
+				F6A51F5C22810D2D00D02EBD /* Explosion.sks */,
 				C4331FC0225C376C00A40456 /* Assets.xcassets */,
 			);
 			path = "Galaga-Tribute";
@@ -308,6 +311,7 @@
 				C4331FC1225C376C00A40456 /* Assets.xcassets in Resources */,
 				C4331FBF225C376800A40456 /* Main.storyboard in Resources */,
 				F629037122657E0F00C84D9D /* Actions.sks in Resources */,
+				F6A51F5D22810D2D00D02EBD /* Explosion.sks in Resources */,
 				F629037E22667A1100C84D9D /* Spacebg.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
